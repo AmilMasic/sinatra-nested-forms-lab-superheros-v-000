@@ -2,13 +2,13 @@
 
 <form action="team" method="post">
   <label for="team_name">Team Name:</label>
-  <input type="text" name="team_name" id="team_name" value=""><br>
+  <input type="text" name="team[name]" id="team_name" value=""><br>
   <label for="team_motto">Team Motto:</label>
-  <input type="text" name="team-motto" id="team_motto" value="">
+  <input type="text" name="team[motto]" id="team_motto" value="">
   <br>
   <h1>Hero 1</h1>
   <label for="heros_name1">Hero's Name:</label>
-  <input type="text" name="heros_name1" id="heros_name1" value="">
+  <input type="text" name="team[heroes][][name]" id="heros_name1" value="">
   <br>
   <label for="heros_power1">Hero's Power:</label>
   <input type="text" name="heros_power1" id="heros_power1" value="">
